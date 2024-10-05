@@ -1,0 +1,3 @@
+import ListaAlunos
+
+print(ListaAlunos)

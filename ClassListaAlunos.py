@@ -6,5 +6,5 @@ class Aluno:
         self.nome = nome
         self.nota = nota
 
-    def __str__(self):
+    def mostrar(self):
         return f"Nome: {self.nome}\nNota: {self.nota}"

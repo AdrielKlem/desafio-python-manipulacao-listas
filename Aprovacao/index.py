@@ -7,4 +7,4 @@ def AlunosAprovados():
     lista_media = construirListaMediaDeAlunos(Alunos)
     lista_aprovados = construirListaDeAlunosAprovados(Alunos, lista_media)
 
-    print(lista_aprovados)
+    return lista_aprovados

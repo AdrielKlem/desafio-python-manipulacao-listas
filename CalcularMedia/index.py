@@ -1,7 +1,7 @@
 from CalcularMedia.CalcularMediaTurma import calcularMediaTurma
-from CalcularMedia.CalcularMediaAluno import calcularMediaAluno
+from CalcularMedia.CalcularMediaAluno import construirListaMediaDeAlunos
 
 def calcularMedia(Alunos):
-    print("# Preparando o calculo da media...\n")
+    # print("# Preparando o calculo da media...\n")
     calcularMediaTurma(Alunos)
-    calcularMediaAluno(Alunos)
+    construirListaMediaDeAlunos(Alunos)

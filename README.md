@@ -11,13 +11,11 @@ Questão: Você está desenvolvendo um programa que gerencia uma lista de alunos
 
 Crie uma função chamada calcular_media(alunos) que recebe a lista de alunos e retorna a média das notas.
 
-- Mas ficou meio ambiguio essa parte pq média seria do alunos, ou da turma?
-  - Se for dos alunos, precisava está explicito que o aluno poderia ter mais notas
-  - Acabei optando sepração das notas dos alunos por semestre
-
 ### Alunos Aprovados
 
 Crie uma função chamada alunos_aprovados(alunos, media) que recebe a lista de alunos e a média calculada. A função deve retornar uma lista com os nomes dos alunos que têm nota acima da média.
+
+- A média como exemplo seria 7
 
 ### Imprimir Resultados
 

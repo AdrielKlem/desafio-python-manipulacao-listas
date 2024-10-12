@@ -1,10 +1,13 @@
 class Aluno:
     nome: str
-    nota: float         
+    notas: dict  # Dicionário para armazenar as notas por semestre
 
-    def __init__(self, nome, nota):
+    def __init__(self, nome, notaPrimeiroSemestre, notaSegundoSemestre):
         self.nome = nome
-        self.nota = nota
+        self.notas = {
+            "1 Semestre": notaPrimeiroSemestre,
+            "2 Semestre": notaSegundoSemestre
+        }
 
     def mostrar(self):
-        return f"Nome: {self.nome}\nNota: {self.nota}"
+        return f"Nome: {self.nome}\nNotas: {self.notas}"

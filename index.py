@@ -1,12 +1,5 @@
-from ListaAlunos import Alunos
-from CalcularMedia.index import calcularMedia
-from Aprovacao.index import AlunosAprovados
-from ResultadoAprovacao.index import ImprimirResultado
+from ResultadoAprovacao.ImprimirResultado import ImprimirResultado
 
+print("Iniciando o Projeto\n")
 
-print("Inicio do Projeto")
-print("-------------------------\n")
-
-# calcularMedia(Alunos)
-# AlunosAprovados()
-ImprimirResultado()
+ImprimirResultado() # Rodando pela ultima tarefa

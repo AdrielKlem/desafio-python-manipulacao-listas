@@ -8,6 +8,3 @@ class Aluno:
             "1 Semestre": notaPrimeiroSemestre,
             "2 Semestre": notaSegundoSemestre
         }
-
-    def mostrar(self):
-        return f"Nome: {self.nome}\nNotas: {self.notas}"

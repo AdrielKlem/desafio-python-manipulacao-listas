@@ -30,3 +30,9 @@ Crie uma função chamada imprimir_resultados(alunos_aprovados) que recebe a lis
 ## Resolução
 
 Por favor, escreva o código que resolve as tarefas descritas acima, incluindo as funções solicitadas e comentários explicativos.
+
+## Rodar o código
+
+```bash
+  python index.py
+```

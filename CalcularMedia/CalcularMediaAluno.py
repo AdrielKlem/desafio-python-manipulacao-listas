@@ -1,7 +1,7 @@
 def construirListaMediaDeAlunos(Alunos):
     # print("=>   Calculando a media do Aluno...\n\n")
 
-    lista_media = {}
+    lista_aluno_e_media = {}
  
     for aluno in Alunos:
 
@@ -11,7 +11,7 @@ def construirListaMediaDeAlunos(Alunos):
 
 
         media = calcularMedia(nota_primeiro_semestre, nota_segundo_semestre)
-        lista_media[nome] = media
+        lista_aluno_e_media[nome] = media
 
 
         # print(f"Aluno {nome}")
@@ -22,7 +22,7 @@ def construirListaMediaDeAlunos(Alunos):
         # print(f"----------")
         # print("\n")
 
-    return lista_media
+    return lista_aluno_e_media
 
 def calcularMedia(nota_primeiro_semestre, nota_segundo_semestre):
     notas = 0

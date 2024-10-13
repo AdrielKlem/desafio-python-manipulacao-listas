@@ -1,4 +1,4 @@
-from ClassListaAlunos import Aluno
+from ConstrutorListaAlunos.ClassListaAlunos import Aluno
 
 Alunos = []
 

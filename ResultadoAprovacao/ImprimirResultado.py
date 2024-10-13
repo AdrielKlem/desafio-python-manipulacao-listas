@@ -1,7 +1,7 @@
-from Aprovacao.index import AlunosAprovados
+from Aprovacao.AlunosAprovados import AlunosAprovados
 
 def ImprimirResultado():
-    lista = AlunosAprovados()
+    lista = AlunosAprovados() # Método para criar a lista dos aprovados
 
     for aluno in lista:
         print("---------------")
